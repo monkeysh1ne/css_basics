@@ -12,6 +12,10 @@ a:hover, a:active{
   font-weight: 600;
 }
 
+.clear-fix{
+  clear: both;
+}
+
 body{
   background-color: #f4f4f4;
   color: #555555;
@@ -112,8 +116,6 @@ h1{
   width: 100%;
 }
 
-
-
 .button{
   background-color: #333;
   color: white;
@@ -125,4 +127,58 @@ h1{
 
 .button:hover{
   font-weight: 800;
+}
+
+.block{
+  float:left;
+  width: 33.3%;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#main-block{
+  float: left;
+  width: 70%;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+#side-bar{
+  float: right;
+  width: 30%;
+  background-color: #333;
+  color: #fff;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.p-box{
+  width: 800px;
+  height: 500px;
+  border: 1px solid #000;
+  margin-top: 30px;
+  position: relative;
+  background-image: url('../img/bgimage.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.p-box h1{
+  position: absolute;
+  top: 200px;
+  left:100px
+}
+
+.p-box h2{
+  position: absolute;
+  bottom: 50px;
+  right: 100px;
+}
+
+.fix-me{
+  position: fixed;
+  top: 400px;
+  left:10px;
 }
