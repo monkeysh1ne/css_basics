@@ -35,6 +35,8 @@ body{
 }
 
 
+
+
 #box-1{
   border-right: 5px solid red;
   border-left: 5px solid red;
@@ -91,4 +93,36 @@ h1{
   padding-bottom: 6px;
   border-bottom: 1px dotted #333;
   list-style-image: url('../img/skull.png');
+}
+
+.my-form{
+  padding: 20px;
+}
+
+.my-form .form-group{
+  padding: 15px;
+}
+
+.my-form label{
+  display: block ;
+}
+
+.my-form input[type="text"], .my-form textarea{
+  padding: 8px;
+  width: 100%;
+}
+
+
+
+.button{
+  background-color: #333;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 15px;
+  margin-top: 35px;
+}
+
+.button:hover{
+  font-weight: 800;
 }
