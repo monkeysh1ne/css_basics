@@ -6,3 +6,54 @@ body{
   line-height: 1.6em;
   margin:0px;
 }
+
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+#main-header{
+  background-color: coral;
+  color: white;
+}
+
+#navbar{
+  background-color: darkgrey;
+  color: white;
+}
+
+#navbar ul{
+  padding:0px;
+  list-style: none;
+}
+
+#navbar li{
+  display: inline;
+}
+
+#navbar a{
+  color:white;
+  text-decoration: none;
+  font-size: 18px;
+  padding-right: 15px;
+}
+
+#navbar a:hover{
+  font-weight: bold;
+}
+
+#showcase{
+  background-image: url('../img/showcase.jpg');
+  background-position: center right;
+  min-height: 300px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+#showcase h1{
+  color: white;
+  font-size: 50px;
+  line-height: 1.6em;
+  padding-top: 30px;
+}
