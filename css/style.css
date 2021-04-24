@@ -182,3 +182,34 @@ h1{
   top: 400px;
   left:10px;
 }
+
+.my-list li:first-child{
+  background: red;
+}
+
+.my-list li:last-child{
+  background: greenyellow;
+}
+
+.my-list li:nth-child(3){
+  background: violet;
+}
+
+.my-list li:nth-child(even){
+  background: lightgray;
+}
+
+.pseudo-pgph p{
+  margin: 2em 20%;
+  padding: 2em 2.5em 10% 10%;
+  background: lightgray;
+}
+
+.pseudo-pgph p::first-line{
+  text-transform: uppercase;
+}
+
+.pseudo-pgph p::first-letter{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 2em;
+}
